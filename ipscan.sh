@@ -7,10 +7,6 @@ if [ ! -f "$FILE" ]; then
     exit 1
 fi
 
-# arrays for results
-reachable=()
-unreachable=()
-
 echo "Checking IPs from $FILE..."
 echo
 while IFS= read -r ip; do
