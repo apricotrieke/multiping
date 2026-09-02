@@ -1,4 +1,4 @@
-The script requires a pre-prepared text file with the IP addresses all on their own line
+The script requires a pre-prepared text file with the IP addresses each on a new line
 you can put comments to label them as well, but no other text. You can pass your own
 text file with any name as an argument, or you can pass no argument and the script looks
 for a file named ips.txt and uses that
